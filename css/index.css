@@ -1,0 +1,87 @@
+body {
+  font-size: 14px;
+}
+header {
+  width: 100%;
+  /*height: 80px;*/
+  padding: 0.2rem;
+  background: rgb(228, 245, 254);
+}
+header input {
+    width: 5.8rem;
+    height: 0.7rem;
+    display: inline-block;
+    background: rgb(189, 226, 244);
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    margin: auto;
+}
+section {
+    width: 100%;
+    height: 7.68rem;
+    padding-top: 20px;
+    background: pink;
+    /*z-index: 100;*/
+    /*animation: rotate 2s infinite;*/
+}
+.body-symptom {
+    background: hotpink;
+    position: absolute;
+    left: 0;
+    top: 1.12rem;
+    z-index: -1;
+    transform: rotateY(270deg);
+}
+.beforehand-left, .beforehand-right {
+    width: 1.6rem;
+}
+.age {
+    display: inline-block;
+    width: 0.45rem;
+    border: 1px solid #ccc;
+}
+.body-wapper {
+    width: 3.5rem;
+}
+.body {
+    width: 2.25rem;
+    margin: auto;
+}
+.body-symptom {
+
+}
+.body img {
+    width: 100%;
+}
+.beforehand-left, .body-wapper, .beforehand-right {
+    float: left;
+    border: 1px solid red;
+}
+.beforehand-right {
+    text-align: center;
+}
+.beforehand-right img {
+    width: 0.4rem;
+}
+@keyframes rotate {
+    0% {
+      transform: rotateY(0deg);
+    }
+    50% {
+      transform: rotateY(90deg);
+    }
+}
+.next {
+    text-align: center;
+}
+.next-btn {
+    display: inline-block;
+    width: 1.2rem;
+    height: 1.2rem;
+    line-height: 1.2rem;
+    color: #fff;
+    text-align: center;
+    border-radius: 50%;
+    background: #36bac8;
+}
